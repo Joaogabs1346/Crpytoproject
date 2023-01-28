@@ -3,9 +3,12 @@ A complete project containing front-end + Flask and a machine learning applicati
 
 ## Getting Started
 #Clone the github
+
 git clone https://github.com/Joaogabs1346/Cryptocurrency-Daily.git
 
+
 #Run project
+
 python3 app.py
 
 
