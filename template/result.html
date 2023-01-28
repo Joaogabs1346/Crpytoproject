@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crappo</title>
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"
+      integrity="sha512-f5HTYZYTDZelxS7LEQYv8ppMHTZ6JJWglzeQmr0CVTS70vJgaJiIO15ALqI7bhsracojbXkezUIL+35UXwwGrQ=="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Header-->
+    <header class="header">
+      <!-- Top Header -->
+      <div class="header__top">
+        <div class="logo">
+          <img src="assets/image/logo.svg" alt="Croppo brand logo" />
+          <span class="text text--medium">CRAPPO</span>
+        </div>
+        <nav>
+          <ul class="list list--inline">
+            <span class="vertical-line"></span>
+            <a href="/">
+            <button class="btn btn--accent text--small text--medium">Home</button>
+            </a>
+            <li class="list__item text text--small text--regular">Products</li>
+            <li class="list__item text text--small text--regular">Features</li>
+            <li class="list__item text text--small text--regular">About</li>
+            <li class="list__item text text--small text--regular">Contact</li>
+          </ul>
+               </nav>
+      </div>
+      <!-- Header Body -->
+    <!-- Trade securely -->
+    <main id="main">
+
+      <!-- ======= Contact Section ======= -->
+      <section id="contact" class="contact section-bg">
+          <div class="container" data-aos="fade-up">
+              <br/><br/><br/>
+              <div class="section-title">
+                  <h2>MACHINE LEARNING</h2>
+                  <p>Cryptocurrency Forecast</p>
+              </div>
+  
+              <div class="row">
+  
+                  <div class="col-lg-12">
+                      <br><br>
+                      <h3>Cryptocurrency:<u> {{crypto}}</u></h3>                      
+                      <b>The model achieved the accuracy of:</b><b class="prediction"><h3><b><u> {{ result }}%</u></b></h3></b>
+                      <img src="{{ imagem }}" />
+                      
+  
+                      </div>
+  
+  
+                  </div>
+  
+              </div>
+  
+          </div>
+      </section><!-- End Contact Section -->
+  
+  </main><!-- End #main -->
+      <img class="background-item-6" src="assets/image/background-item-6.svg" alt="" />
+      <img class="background-item-7" src="assets/image/background-item-7.svg" alt="" />
+    </section>
+        <!-- Footer -->
+    <footer class="footer">
+      <div class="footer__top">
+        <div class="footer__top__logo">
+          <img src="assets/image/logo.svg" alt="Croppo brand logo" />
+          <span class="text text--medium">CRAPPO</span>
+        </div>
+        <div class="footer__top__menu">
+          <nav class="nav">
+            <p class="nav__title text text--medium">Quick Link</p>
+            <ul class="nav__list">
+              <li class="nav__list__item text text--small text--regular">Home</li>
+              <li class="nav__list__item text text--small text--regular">Products</li>
+              <li class="nav__list__item text text--small text--regular">About</li>
+              <li class="nav__list__item text text--small text--regular">Features</li>
+              <li class="nav__list__item text text--small text--regular">Contact</li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer__top__menu">
+          <nav class="nav">
+            <p class="nav__title text text--medium">Resources</p>
+            <ul class="nav__list">
+              <li class="nav__list__item text text--small text--regular">Download Whitepaper</li>
+              <li class="nav__list__item text text--small text--regular">Smart Token</li>
+              <li class="nav__list__item text text--small text--regular">Blockchain Explorer</li>
+              <li class="nav__list__item text text--small text--regular">Crypto API</li>
+              <li class="nav__list__item text text--small text--regular">Interest</li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer__top__payment-systems">
+          <p class="payment-systems__title">We accept following payment systems</p>
+          <div class="payment-systems__payments">
+            <div class="payment-icon-container">
+              <img src="assets/image/visa.svg" alt="Visa Card" />
+            </div>
+            <div class="payment-icon-container">
+              <img src="assets/image/mastercard.svg" alt="Master Card" />
+            </div>
+            <div class="payment-icon-container">
+              <img src="assets/image/bitcoin.svg" alt="Bitcoin" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="footer__bottom__copyright text text--small text--regular">&copy;2021 CRAPPO. All rights reserved.</div>
+        <div class="footer__bottom__social-media">
+          <svg class="social-icon">
+            <use xlink:href="assets/image/social-media-sprite.svg#facebook"></use>
+          </svg>
+          <svg class="social-icon">
+            <use xlink:href="assets/image/social-media-sprite.svg#instagram"></use>
+          </svg>
+          <svg class="social-icon">
+            <use xlink:href="assets/image/social-media-sprite.svg#youtube"></use>
+          </svg>
+          <svg class="social-icon">
+            <use xlink:href="assets/image/social-media-sprite.svg#twitter"></use>
+          </svg>
+          <svg class="social-icon">
+            <use xlink:href="assets/image/social-media-sprite.svg#linkedin"></use>
+          </svg>
+        </div>
+      </div>
+    </footer>
+    <script>
+      new Rellax(".btc-illustration", {
+        horizontal: true,
+      });
+      new Rellax("#gpu-illustration", {
+        horizontal: true,
+      });
+    </script>
+  </body>
+</html>
