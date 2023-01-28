@@ -40,7 +40,7 @@ This project is licensed under the MIT License
 ## Acknowledgments
 
 * Website(HTML+CSS+JS) https://github.com/canumay/crappo
-* DF https://www.kaggle.com/code/arsenalist/bitcoin-prices-prediction
+* DF https://www.kaggle.com/datasets/jessevent/all-crypto-currencies
 
 
 
